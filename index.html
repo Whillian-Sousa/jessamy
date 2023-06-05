@@ -11,8 +11,10 @@
             padding: 0px;
         }
         body{
+            position: relative;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             background-image: linear-gradient(to right, #9400d3, #fc6a83);
+            height:100vh;
         }
         header{
             text-transform: uppercase;
@@ -45,8 +47,9 @@
         }
         nav{
             font-size: 16px;
-            padding-top: 5px;
+            padding-top: 7px;
             border-top: 1px solid #252525;
+            margin-bottom: 20px;
         }
         nav > a{
             text-decoration: none;
@@ -60,12 +63,14 @@
         }
         nav > a:hover{
             background-color: #f0f8ff50;
+            border-radius: 5px;
         }
         main{
-            background-color: #faf4f498;
+            background-color: rgba(245, 222, 179, 0.781);
             padding: 10px;
-            margin: 10px;
+            margin: auto;
             border-radius: 5px;
+            max-width: 1200px;
         }
         article{
             color: #333233;
@@ -81,19 +86,24 @@
             margin: 0px;
         }
         footer{
+            position: absolute;
             background-color: #252525;
             color: violet;
             text-align: center;
-            padding: 20px;
-            bottom: 0px;
+            width: 100%;
+            bottom: 0;
         }
         footer > p{
+            padding: 10px;
             margin:0px;
         }
         footer a{
             color: violet;
             text-decoration: none;
             font-weight: bold;
+        }
+        footer a:hover{
+            color: wheat;
         }
     </style>
 </head>
@@ -124,7 +134,7 @@
         </section>
         <section id="noticias">
             <article>
-                <h2>Noticias do Brasil</h2>
+                <h2>Conteúdo</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A molestiae eius asperiores illo ad dignissimos repellat veritatis, cum excepturi aperiam cumque architecto obcaecati ducimus ipsam exercitationem numquam harum vitae reiciendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae pariatur, modi, omnis magnam obcaecati explicabo aliquam quaerat corrupti veniam id voluptatum! Nulla non quis quam totam doloribus? Fugit, hic provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit assumenda voluptatibus labore quis nam quasi delectus laborum! Veritatis cum enim voluptates similique perferendis. Expedita molestiae blanditiis sit aspernatur, sapiente nesciunt!</p>
                 <aside>
                     <p>escrito por Fulano de Tal</p>
