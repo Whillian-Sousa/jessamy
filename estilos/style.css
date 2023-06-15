@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    position: relative;
+    background-image: linear-gradient(to right, #9400d3, #fc6a83);
+    height:100vh;
+}
+header{
+    background-image: linear-gradient(to right, #9400d3, #fc6a83);
+    text-align: center;
+}
+
+header > h1{
+    text-transform: uppercase;
+    font-size: 70px;
+    text-shadow: 1px 1px 5px rgba(10, 10, 10, 0.534);
+    margin-top: 20px;
+
+}
+header > h2{
+    color: #252525;
+    text-shadow: 1px 1px 3px rgba(10, 10, 10, 0.603);
+    margin-bottom:20px;
+}
+nav{
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-top: 7px;
+    border-top: 1px solid #252525;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+nav > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0px 15px;
+    transition-duration: .5s;
+    text-shadow: 1px 1px 2px rgba(10, 10, 10, 0.507);
+    padding: 5px;
+}
+nav > a:hover{
+    color: lightgray;
+}
+
+header > nav.top{
+    position: relative;
+    text-align: right;
+    background-color: #252525;
+    padding: 10px;
+}
+header > nav.top > a{
+    color: violet;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.top > a:hover{
+    color: lightgray;
+}
+
+.left{
+    float: left;
+    padding: 1px;
+}
+
+main{
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    max-width: 1200px;
+}
+article{
+    color: #333233;
+    padding: 5px;
+    text-align: justify;
+}
+article > aside{
+    color: #333233;
+    padding: 3px;
+    text-align: right;
+}
+aside > p{
+    margin: 0px;
+}
+footer{
+    position: absolute;
+    background-color: #252525;
+    color: violet;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
+footer > p{
+    padding: 10px;
+    margin:0px;
+}
+footer a{
+    color: violet;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover{
+    color: lightgray;
+}
